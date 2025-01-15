@@ -9,8 +9,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        "retro-red": "var(--retro-red)",
+        "retro-black": "var(--retro-black)",
+        "retro-gray": "var(--retro-gray)",
+        "retro-white": "var(--retro-white)",
       },
     },
   },
