@@ -1,4 +1,4 @@
-export type skillSchema = {
+export type SkillSchema = {
     name: string;
     url: string;
 }

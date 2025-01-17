@@ -18,7 +18,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="antialiased">
         <Header />
-        <main>{children}</main>
+        <main className=" container mx-auto">{children}</main>
         <Footer />
       </body>
     </html>

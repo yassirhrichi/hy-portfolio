@@ -5,7 +5,7 @@ import ProjectsSection from "@/components/projects";
 
 export default function Home() {
   return (
-    <div className="container mx-auto pt-16">
+    <div className="pt-16 px-4 sm:px-8">
       <HeroSection />
       <AboutMeSection />
       <ProjectsSection />

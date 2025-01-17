@@ -8,7 +8,7 @@ function Section({
   title?: string;
 }) {
   return (
-    <section className="py-16">
+    <section className="py-8">
       <h1 className="text-4xl font-bold text-center">{title}</h1>
       {children}
     </section>

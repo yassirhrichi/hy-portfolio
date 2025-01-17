@@ -1,4 +1,4 @@
-import { skillSchema } from "@/lib/schemas/skill";
+import { skillSchema } from "@/lib/schemas/SkillSchema";
 import React from "react";
 
 function Skill({ name, url }: skillSchema) {

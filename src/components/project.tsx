@@ -22,7 +22,7 @@ function Project() {
         <div className="flex items-center justify-start pt-4" >
           <div
             //href="https://google.com"
-            className="bg-transparent border-retro-red flex flex-row gap-2 border-2 px-4 py-2 text-sm font-bold uppercase text-white transition-all duration-300 ease-in-out hover:bg-retro-red"
+            className="bg-transparent border-retro-red cursor-default flex flex-row gap-2 border-2 px-4 py-2 text-sm font-bold uppercase text-white transition-all duration-300 ease-in-out hover:bg-retro-red"
            >
             <span>Coming soon...</span>
           </div>

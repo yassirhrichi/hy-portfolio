@@ -1,10 +1,10 @@
 import React from "react";
 import Section from "./section";
-import { skillSchema } from "@/lib/schemas/skill";
+import { SkillSchema } from "@/lib/schemas/SkillSchema";
 import Skill from "./skill";
 
 function AboutMeSection() {
-  const techStack: skillSchema[] = [
+  const skills: SkillSchema[] = [
     {
       name: "React",
       url: "/skills/react.png",
@@ -58,10 +58,10 @@ function AboutMeSection() {
             reading, or enjoying a plate of mom’s spaghetti.
           </p>
         </div>
-        <div className="md:mt-0">
-          <h2 className="text-center text-2xl font-bold mb-3">Skills</h2>
+        <div className=" mt-4 md:mt-0">
+          <h2 className="text-center text-xl font-bold mb-3">Skills</h2>
           <div className="grid grid-cols-4 gap-6 px-3 place-items-center">
-            {techStack.map((skill) => (
+            {skills.map((skill) => (
               <Skill key={skill.name} name={skill.name} url={skill.url} />
             ))}
           </div>
