@@ -58,9 +58,9 @@ function AboutMeSection() {
             reading, or enjoying a plate of mom’s spaghetti.
           </p>
         </div>
-        <div className=" mt-4 md:mt-0">
+        <div className=" mt-4 md:mt-8 flex justify-start items-center flex-col">
           <h2 className="text-center text-xl font-bold mb-3">Skills</h2>
-          <div className="grid grid-cols-4 gap-6 px-3 place-items-center">
+          <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-3 lg:grid-cols-4 gap-6 px-3 place-items-center">
             {skills.map((skill) => (
               <Skill key={skill.name} name={skill.name} url={skill.url} />
             ))}

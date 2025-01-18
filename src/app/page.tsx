@@ -9,7 +9,7 @@ export default function Home() {
       <HeroSection />
       <AboutMeSection />
       <ProjectsSection />
-      <ContactSection />
+        <ContactSection />
     </div>
   );
 }
