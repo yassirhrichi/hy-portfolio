@@ -23,13 +23,13 @@ function HeroSection() {
         <div className="flex flex-col text-center md:text-justify justify-around px-10 md:px-0">
           <div>
             <p>
-              Hi, I'm Yassir Hrichi, a software engineer with a goal: WORLD
+              Hi, I&apos;m Yassir Hrichi, a software engineer with a goal: WORLD
               DOMIN… cough, I mean :{" "}
               <b>
                 Transform the challenges your business faces into growth
                 opportunities through efficient and reliable web solutions.
               </b>
-              <br /> Yeah..., let's go with that{" "}
+              <br /> Yeah..., let&apos;s go with that{" "}
               <span className="font-serif">( ͡° ͜ʖ ͡°)</span>
             </p>
           </div>

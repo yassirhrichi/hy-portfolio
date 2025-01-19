@@ -89,6 +89,7 @@ function ContactForm() {
       <div>
         <button
           type="submit"
+          disabled={!isValid}
           className="bg-transparent hover:bg-retro-red text-retro-white border-2 border-retro-red px-4 py-2 font-bold uppercase transition-all duration-300 ease-in-out"
         >
           Send Message
