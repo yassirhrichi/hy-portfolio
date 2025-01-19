@@ -5,7 +5,10 @@ import Footer from "@/components/footer";
 import Header from "@/components/header";
 
 export const metadata: Metadata = {
-  title: "Hrichi Yassir - Portfolio",
+  title: {
+    template: "Hrichi Yassir | %s ",
+    default: "Hrichi Yassir | Portfolio",
+  },
   description: `"It's all fun and games until the bugs eat my a-live code", get it?, bugs on the code that is "live", like you know, in production..., you know what, just welcome to my portfolio  `,
 };
 

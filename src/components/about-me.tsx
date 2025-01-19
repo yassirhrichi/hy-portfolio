@@ -39,7 +39,7 @@ function AboutMeSection() {
     },
   ];
   return (
-    <Section title="About me">
+    <Section title="About me" id="about-me">
       <div className="mt-3 grid grid-cols-1 md:grid-cols-2 md:gap-6">
         <div className="text-center md:text-justify flex flex-col justify-around px-10 md:px-0">
           <p className="mt-2">

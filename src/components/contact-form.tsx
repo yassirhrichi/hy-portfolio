@@ -45,6 +45,7 @@ function ContactForm() {
         </label>
         <input
           {...register("name")}
+          id="name"
           type="text"
           className="w-full p-2 border-2 border-retro-red text-retro-black"
         />
@@ -60,6 +61,7 @@ function ContactForm() {
         </label>
         <input
           type="text"
+          id="email"
           {...register("email")}
           className="w-full p-2 border-2 border-retro-red text-retro-black"
         />
@@ -74,6 +76,7 @@ function ContactForm() {
           Message :
         </label>
         <textarea
+          id="message"
           {...register("message")}
           className="w-full min-h-36 p-2 border-2 border-retro-red text-retro-black"
         />

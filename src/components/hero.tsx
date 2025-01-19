@@ -3,9 +3,9 @@ import Section from "./section";
 
 function HeroSection() {
   return (
-    <Section title="Welcome to my page">
+    <Section title="Welcome to my page" id="hero">
       <div className="mt-3 grid grid-cols grid-cols-1 md:grid-cols-2 md:gap-6 pt-8">
-        <div className="order-last md:order-first mt-6 md:mt-0 text-retro-white text-center xs:text-sm md:text-sm xl:text-lg ">
+        <div className="my-4 md:mt-0 text-retro-white text-center xs:text-sm md:text-sm xl:text-lg ">
           <pre className="font-mono">{`██╗  ██╗ ██████╗  ██╗  ██████╗ ██╗  ██╗ ██╗
 ██║  ██║ ██╔══██╗ ██║ ██╔════╝ ██║  ██║ ██║
 ███████║ ██████╔╝ ██║ ██║      ███████║ ██║
