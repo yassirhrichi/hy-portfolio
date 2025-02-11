@@ -3,9 +3,9 @@ import Section from "./section";
 
 function HeroSection() {
   return (
-    <Section title="Welcome to my page">
+    <Section title="Welcome to my page" id="hero">
       <div className="mt-3 grid grid-cols grid-cols-1 md:grid-cols-2 md:gap-6 pt-8">
-        <div className="order-last md:order-first mt-6 md:mt-0 text-retro-white text-center xs:text-sm md:text-sm xl:text-lg ">
+        <div className="my-4 md:mt-0 text-retro-white text-center xs:text-sm md:text-sm xl:text-lg ">
           <pre className="font-mono">{`██╗  ██╗ ██████╗  ██╗  ██████╗ ██╗  ██╗ ██╗
 ██║  ██║ ██╔══██╗ ██║ ██╔════╝ ██║  ██║ ██║
 ███████║ ██████╔╝ ██║ ██║      ███████║ ██║
@@ -23,13 +23,13 @@ function HeroSection() {
         <div className="flex flex-col text-center md:text-justify justify-around px-10 md:px-0">
           <div>
             <p>
-              Hi, I'm Yassir Hrichi, a software engineer with a goal: WORLD
+              Hi, I&apos;m Yassir Hrichi, a software engineer with a goal: WORLD
               DOMIN… cough, I mean :{" "}
               <b>
                 Transform the challenges your business faces into growth
                 opportunities through efficient and reliable web solutions.
               </b>
-              <br /> Yeah..., let's go with that{" "}
+              <br /> Yeah..., let&apos;s go with that{" "}
               <span className="font-serif">( ͡° ͜ʖ ͡°)</span>
             </p>
           </div>
