@@ -1,5 +1,4 @@
 import React from "react";
-import { readMdxFile } from "./utils";
 
 export const metadata = {
     title: 'Blog',
