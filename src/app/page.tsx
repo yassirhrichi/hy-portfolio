@@ -2,14 +2,16 @@ import AboutMeSection from "@/components/about-me";
 import ContactSection from "@/components/contact";
 import HeroSection from "@/components/hero";
 import ProjectsSection from "@/components/projects";
+import StoreSection from "@/components/store";
 
 export default function Home() {
   return (
-    <div className="px-4 sm:px-8">
+    <>
       <HeroSection />
       <AboutMeSection />
       <ProjectsSection />
-        <ContactSection />
-    </div>
+      <StoreSection />
+      <ContactSection />
+    </>
   );
 }

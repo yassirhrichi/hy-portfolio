@@ -20,9 +20,14 @@ export default function RootLayout({
     <html lang="en">
       <body className="antialiased">
         <Header />
-        <main className=" container mx-auto">{children}</main>
+        <main className=" container mx-auto min-h-[calc(100vh-76px)] ">
+          <div className="px-4 sm:px-8 md:px-10 lg:px-28 xl:px-52"> 
+            {children}
+          </div>
+        </main>
         <Footer />
       </body>
     </html>
   );
 }
+// -76px is the height of the header + footer
