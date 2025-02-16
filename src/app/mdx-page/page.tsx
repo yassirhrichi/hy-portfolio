@@ -4,13 +4,14 @@ export default async function Page({
   params: Promise<{ slug: string }>
 }) {
   const slug = (await params).slug
-  const { default: Post } = await import(`@/app/blog/content/${slug}.mdx`)
+  console.log(slug)
+  const { default: Post } = await import(`@/app/mdx-page/content/${slug}.mdx`)
  
   return <Post />
 }
  
 export function generateStaticParams() {
-  return [{ slug: 'vim' }, { slug: 'about' }]
+  return [{ slug: 'welcome' }, { slug: 'about' }]
 }
  
 export const dynamicParams = false
